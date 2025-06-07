@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go build / go install
+/bin/
+/build/
+/dist/
+
+# Dependency directories (vendor/)
+vendor/
+
+# Logs and runtime files
+*.log
+
+# Local env files (DO NOT COMMIT SECRETS)
+.env
+.env.*
+
+# IDE/editor files
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# air tool temp files
+.tmp/
+
+# Go coverage tool files
+*.out
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Go module files created by tools
+go.sum
